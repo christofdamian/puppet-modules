@@ -10,4 +10,13 @@ class development {
       ensure => latest,
   }
 
+  file { 'git-profile.sh':
+    path => '/etc/profile.d/git.sh',
+    ensure => present,
+    source => 'puppet:///modules/development/git-profile.sh',
+    owner => root,
+    group => root,
+    mode => 644,
+  } 
+
 }
