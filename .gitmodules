@@ -1,0 +1,9 @@
+[submodule "modules/postgresql"]
+	path = modules/postgresql
+	url = https://github.com/puppetlabs/puppetlabs-postgresql.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "modules/concat"]
+	path = modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
