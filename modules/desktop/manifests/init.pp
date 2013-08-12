@@ -7,6 +7,7 @@ class desktop {
        'cinnamon',
        'emacs-nox',
        'keepassx',
+       'workrave',
                
 	'libpurple-perl',
         'pidgin',
