@@ -1,10 +1,27 @@
 class ruby_development {
 
-  # devex
   $packages = [
+    # devex
     'libcurl-devel',
     'GeoIP-devel',
-    'ImageMagick-devel'
+    'ImageMagick-devel',
+    'postgresql-devel',
+    'sqlite-devel',
+    'v8',
+    'nodejs',
+    'postgresql-server',
+
+    # rvm
+    'patch',
+    'gcc-c++',
+    'readline-devel',
+    'libyaml-devel',
+    'libffi-devel',
+    'openssl-devel',
+    'autoconf',
+    'automake',
+    'libtool',
+    'bison',
   ]
 
   package { $packages:
