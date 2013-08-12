@@ -1,3 +1,2 @@
-node 'robin' {
-  include 'ruby_development'
+node 'robin' inherits 'desktop' {
 }
