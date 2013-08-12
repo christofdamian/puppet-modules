@@ -1,5 +1,7 @@
 class desktop {
+  include yum_repos::adobe
 
+  
   $packages = [
        'fedup',
        'cinnamon',
@@ -14,6 +16,8 @@ class desktop {
         'gstreamer1-plugins-bad-freeworld',
         'gstreamer1-plugins-ugly',
         'gstreamer1-libav',
+
+        'flash-plugin',
 	
         'gpointing-device-settings',
         'powertop',

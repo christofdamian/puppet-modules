@@ -1,2 +1,2 @@
-node 'robin' inherits 'desktop' {
+node 'robin' inherits 'common' {
 }

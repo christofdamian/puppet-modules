@@ -1,3 +1,3 @@
-node 'hawkfire' inherits 'desktop' {
+node 'hawkfire' inherits 'common' {
 
 }
