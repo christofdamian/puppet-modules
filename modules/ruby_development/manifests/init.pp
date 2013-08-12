@@ -1,6 +1,7 @@
 class ruby_development {
   include postgresql::server
   include postgresql::devel
+  include nodejs_development
 
   $packages = [
     # devex
@@ -12,9 +13,6 @@ class ruby_development {
     'libxml2-devel',
     'libxslt-devel',
                
-    'v8',
-    'nodejs',
-
     # rvm
     'patch',
     'gcc-c++',
