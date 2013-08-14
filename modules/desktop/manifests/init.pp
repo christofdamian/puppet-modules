@@ -1,6 +1,5 @@
 class desktop {
   include yum_repos::adobe
-
   
   $packages = [
        'fedup',
@@ -9,6 +8,8 @@ class desktop {
        'keepassx',
        'workrave',
        'gnome-tweak-tool',
+
+       'rdiff-backup',
                
 	'libpurple-perl',
         'pidgin',
