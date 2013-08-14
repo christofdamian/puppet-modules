@@ -8,6 +8,7 @@ class desktop {
        'emacs-nox',
        'keepassx',
        'workrave',
+       'gnome-tweak-tool',
                
 	'libpurple-perl',
         'pidgin',
@@ -22,6 +23,8 @@ class desktop {
 	
         'gpointing-device-settings',
         'powertop',
+
+        'apg',
   ]
 
   package { $packages:
