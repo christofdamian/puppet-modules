@@ -1,3 +1,5 @@
 #!/bin/bash
 
-puppet apply --verbose --modulepath=modules manifests/site.pp
+DIR=$( cd "$( dirname "$0" )" && cd .. && pwd )
+
+puppet apply --verbose --modulepath="$DIR/modules" "$DIR/manifests/site.pp"
