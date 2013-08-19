@@ -1,5 +1,6 @@
 class desktop {
   include yum_repos::adobe
+  include yum_repos::google
   
   $packages = [
        'fedup',
@@ -10,6 +11,8 @@ class desktop {
        'gnome-tweak-tool',
 
        'rdiff-backup',
+       'wget',
+       'google-talkplugin',
                
 	'libpurple-perl',
         'pidgin',
