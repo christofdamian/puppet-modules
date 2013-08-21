@@ -1,4 +1,5 @@
 class development {
+  include vagrant
 
   $packages = [
        'java-1.7.0-openjdk',
@@ -17,6 +18,6 @@ class development {
     owner => root,
     group => root,
     mode => 644,
-  } 
+  }
 
 }

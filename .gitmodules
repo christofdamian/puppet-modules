@@ -7,3 +7,6 @@
 [submodule "modules/concat"]
 	path = modules/concat
 	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "modules/elasticsearch"]
+	path = modules/elasticsearch
+	url = https://github.com/electrical/puppet-elasticsearch.git

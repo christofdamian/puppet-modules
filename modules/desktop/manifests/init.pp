@@ -12,6 +12,7 @@ class desktop {
 
        'rdiff-backup',
        'wget',
+       'telnet',
        'google-talkplugin',
                
 	'libpurple-perl',

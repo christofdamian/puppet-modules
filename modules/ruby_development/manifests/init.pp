@@ -2,6 +2,9 @@ class ruby_development {
   include postgresql::server
   include postgresql::devel
   include nodejs_development
+  include redis
+  include memcached
+  include ruby_development::install_elasticsearch
 
   $packages = [
     # devex
@@ -12,7 +15,7 @@ class ruby_development {
     'libxml-devel',
     'libxml2-devel',
     'libxslt-devel',
-               
+
     # rvm
     'patch',
     'gcc-c++',
