@@ -82,7 +82,7 @@ class yum_repos::rpmfusion::nonfree {
 
  
   file { 'nonfree-key':
-    path => "/etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-${lsbmajdistrelease}-x86_64",
+    path => "/etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-19-x86_64",
     ensure => present,
     source => "puppet:///modules/yum_repos/RPM-GPG-KEY-rpmfusion-nonfree-fedora-19",
     owner => root,

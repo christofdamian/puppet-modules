@@ -9,11 +9,14 @@ class desktop {
        'keepassx',
        'workrave',
        'gnome-tweak-tool',
+       'gimp',
+       'whois',
 
        'rdiff-backup',
        'wget',
        'telnet',
        'google-talkplugin',
+       'strace',
                
 	'libpurple-perl',
         'pidgin',
