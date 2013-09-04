@@ -20,6 +20,9 @@ class desktop {
                
 	'libpurple-perl',
         'pidgin',
+        'aspell-de',
+        'hunspell-en-GB',
+        'hunspell-de',
         'purple-plugin_pack-pidgin',
         'gpodder',
         'gstreamer-plugins-ugly',
