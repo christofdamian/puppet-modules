@@ -1,6 +1,6 @@
 class vagrant {
 
-  $url = 'http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/vagrant_1.2.7_x86_64.rpm'
+  $url = 'http://files.vagrantup.com/packages/b12c7e8814171c1295ef82416ffe51e8a168a244/vagrant_1.3.1_x86_64.rpm'
   $tmp = '/tmp/vagrant.rpm'
 
   exec { 'download_vagrant':
