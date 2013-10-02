@@ -1,7 +1,9 @@
 class desktop {
   include yum_repos::adobe
   include yum_repos::google
-  
+
+  include skype
+
   $packages = [
        'fedup',
        'cinnamon',
@@ -17,7 +19,7 @@ class desktop {
        'telnet',
        'google-talkplugin',
        'strace',
-               
+
 	'libpurple-perl',
         'pidgin',
         'aspell-de',
@@ -31,7 +33,7 @@ class desktop {
         'gstreamer1-libav',
 
         'flash-plugin',
-	
+
         'gpointing-device-settings',
         'powertop',
 

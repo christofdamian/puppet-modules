@@ -4,7 +4,7 @@ class ruby_development {
   include nodejs_development
   include redis
   include memcached
-  include ruby_development::install_elasticsearch
+  #include ruby_development::install_elasticsearch
 
   $packages = [
     # devex

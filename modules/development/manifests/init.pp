@@ -6,6 +6,7 @@ class development {
        'java-1.8.0-openjdk',
        'VirtualBox',
        'kmod-VirtualBox',
+       'siege',
   ]
 
   package { $packages:
