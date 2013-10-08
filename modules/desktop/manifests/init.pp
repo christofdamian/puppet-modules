@@ -38,6 +38,8 @@ class desktop {
         'powertop',
 
         'apg',
+
+        'levien-inconsolata-fonts',
   ]
 
   package { $packages:
