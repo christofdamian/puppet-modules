@@ -7,6 +7,7 @@ class development {
        'VirtualBox',
        'kmod-VirtualBox',
        'siege',
+       'xorg-x11-server-Xvfb',
   ]
 
   package { $packages:

@@ -19,6 +19,8 @@ class desktop {
        'telnet',
        'google-talkplugin',
        'strace',
+       'screen',
+       'tmux',
 
 	'libpurple-perl',
         'pidgin',
