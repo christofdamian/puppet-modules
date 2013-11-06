@@ -40,6 +40,7 @@ class desktop {
         'powertop',
 
         'apg',
+        'dos2unix',
 
         'levien-inconsolata-fonts',
   ]
