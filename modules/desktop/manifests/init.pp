@@ -41,6 +41,9 @@ class desktop {
 
         'apg',
         'dos2unix',
+        'simple-mtpfs',
+        'ffmpeg',
+        'liveusb-creator',
 
         'levien-inconsolata-fonts',
   ]
