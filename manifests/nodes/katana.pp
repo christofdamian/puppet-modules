@@ -1,0 +1,2 @@
+node 'katana' inherits 'common' {
+}

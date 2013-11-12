@@ -1,7 +1,8 @@
 class desktop {
   include yum_repos::adobe
   include yum_repos::google
-
+  include 'yum_repos::rpmfusion::nonfree'
+  
   include skype
 
   $packages = [
