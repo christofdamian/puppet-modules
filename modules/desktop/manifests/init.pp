@@ -22,6 +22,7 @@ class desktop {
        'strace',
        'screen',
        'tmux',
+       'baobab',
 
 	'libpurple-perl',
         'pidgin',
@@ -36,6 +37,7 @@ class desktop {
         'gstreamer1-libav',
 
         'flash-plugin',
+        'rhythmbox',
 
         'gpointing-device-settings',
         'powertop',
@@ -47,6 +49,21 @@ class desktop {
         'liveusb-creator',
 
         'levien-inconsolata-fonts',
+
+         'qstars-xscreensaver',
+         'rss-glx-xscreensaver',
+         'tempest-xscreensaver',
+         'xscreensaver',
+         'xscreensaver-base',
+         'xscreensaver-extras',
+         'xscreensaver-extras-base',
+         'xscreensaver-extras-gss',
+         'xscreensaver-gl-base',
+         'xscreensaver-gl-extras',
+         'xscreensaver-gl-extras-gss',
+         'xstar-xscreensaver',
+               
+
   ]
 
   package { $packages:
