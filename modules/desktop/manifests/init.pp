@@ -1,7 +1,8 @@
 class desktop {
   include yum_repos::adobe
   include yum_repos::google
-
+  include 'yum_repos::rpmfusion::nonfree'
+  
   include skype
 
   $packages = [
@@ -21,6 +22,7 @@ class desktop {
        'strace',
        'screen',
        'tmux',
+       'baobab',
 
 	'libpurple-perl',
         'pidgin',
@@ -35,14 +37,33 @@ class desktop {
         'gstreamer1-libav',
 
         'flash-plugin',
+        'rhythmbox',
 
         'gpointing-device-settings',
         'powertop',
 
         'apg',
         'dos2unix',
+        'simple-mtpfs',
+        'ffmpeg',
+        'liveusb-creator',
 
         'levien-inconsolata-fonts',
+
+         'qstars-xscreensaver',
+         'rss-glx-xscreensaver',
+         'tempest-xscreensaver',
+         'xscreensaver',
+         'xscreensaver-base',
+         'xscreensaver-extras',
+         'xscreensaver-extras-base',
+         'xscreensaver-extras-gss',
+         'xscreensaver-gl-base',
+         'xscreensaver-gl-extras',
+         'xscreensaver-gl-extras-gss',
+         'xstar-xscreensaver',
+               
+
   ]
 
   package { $packages:
