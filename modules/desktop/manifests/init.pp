@@ -62,6 +62,7 @@ class desktop {
          'xscreensaver-gl-extras',
          'xscreensaver-gl-extras-gss',
          'xstar-xscreensaver',
+         'fortune-mod',
                
 
   ]
