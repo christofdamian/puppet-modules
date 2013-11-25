@@ -38,6 +38,7 @@ class desktop {
 
         'flash-plugin',
         'rhythmbox',
+        'libmp4v2',
 
         'gpointing-device-settings',
         'powertop',
