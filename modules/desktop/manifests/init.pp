@@ -65,7 +65,8 @@ class desktop {
          'xstar-xscreensaver',
          'fortune-mod',
                
-
+         'libreoffice-writer',
+         'libreoffice-calc',
   ]
 
   package { $packages:
