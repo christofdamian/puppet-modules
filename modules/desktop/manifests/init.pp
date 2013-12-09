@@ -67,6 +67,8 @@ class desktop {
                
          'libreoffice-writer',
          'libreoffice-calc',
+
+         'NetworkManager-pptp-gnome',
   ]
 
   package { $packages:
