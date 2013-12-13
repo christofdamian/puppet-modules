@@ -1,8 +1,9 @@
 class desktop {
   include yum_repos::adobe
   include yum_repos::google
-  include 'yum_repos::rpmfusion::nonfree'
-  
+  include yum_repos::rpmfusion::nonfree
+  include yum_repos::chromium
+
   include skype
 
   $packages = [
@@ -14,6 +15,7 @@ class desktop {
        'gnome-tweak-tool',
        'gimp',
        'whois',
+       'chromium',
 
        'rdiff-backup',
        'wget',
@@ -62,7 +64,7 @@ class desktop {
          'xscreensaver-gl-extras',
          'xscreensaver-gl-extras-gss',
          'xstar-xscreensaver',
-               
+
 
   ]
 
