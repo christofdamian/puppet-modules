@@ -40,6 +40,7 @@ class desktop {
 
         'flash-plugin',
         'rhythmbox',
+        'libmp4v2',
 
         'gpointing-device-settings',
         'powertop',
@@ -64,8 +65,12 @@ class desktop {
          'xscreensaver-gl-extras',
          'xscreensaver-gl-extras-gss',
          'xstar-xscreensaver',
+         'fortune-mod',
+               
+         'libreoffice-writer',
+         'libreoffice-calc',
 
-
+         'NetworkManager-pptp-gnome',
   ]
 
   package { $packages:
